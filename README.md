@@ -1,0 +1,1 @@
+Remake of the romanian "Cruce" card game, cross-platform app for playing online and LAN on the airplane.

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-native-network-info": "^5.2.1",
+    "react-native-tcp-socket": "^6.3.0"
+  }
+}

@@ -5,6 +5,7 @@ import { RootStackParamList } from '../types';
 import HomeScreen from '../screens/HomeScreen';
 import CreateRoomScreen from '../screens/CreateRoomScreen';
 import JoinRoomScreen from '../screens/JoinRoomScreen';
+import GameScreen from '../screens/GameScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -26,6 +27,11 @@ const Navigation = () => {
           name="JoinRoom" 
           component={JoinRoomScreen} 
           options={{ title: 'Join Room' }} 
+        />
+        <Stack.Screen 
+          name="Game" 
+          component={GameScreen} 
+          options={{ title: 'Cruce Game', headerBackVisible: false }} 
         />
       </Stack.Navigator>
     </NavigationContainer>
